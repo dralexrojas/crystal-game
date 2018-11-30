@@ -1,5 +1,9 @@
-.row{
-
+.container{
+    background: #FFF url('../images/background.png');
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-size: cover;
 }
 
 .crystalBox{
@@ -10,28 +14,72 @@
     padding: 15px;
     text-align: center;
     float: left;
-
+    font-size: 20px;
 }
 
 #instructionsBox{
     width: 60%;
     background-color: beige;
     color: green;
-    margin: 2px;
-    padding: 15px;
-    text-align: left;
-    float: left; 
-
-}
-
-#randomNumberBox{
-    width: 20%;
-    background-color: green;
-    color: purple;
+    font-size: 15px;
     margin: 2px;
     padding: 15px;
     text-align: left;
     float: left;
-     
+}
 
+#randomNumberBox{
+    width: 30%;
+    background-color: green;
+    color: purple;
+    margin: 2px;
+    margin-left: 17px;
+    padding: 10px;
+    text-align: left;
+    float: left;
+}
+
+#winLossBox{
+    width: 20%;
+    background-color: aqua;
+    color: black;
+    margin: 2px;
+    padding: 10px;
+    text-align: left;
+    float: left;
+}
+
+#jewelBox{
+    width: 12%;
+    margin: 0px;
+    float: left;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#totalScoreBox{
+    background-color: darkcyan;
+    color: white;
+    width: 40%;
+    height: 29px;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 14px;
+    text-align: left;
+    float: left;
+}
+
+#runningScoreBox{
+    width: 50%;
+    height: 90px;
+    background-color: darkcyan;
+    color: white;
+    margin: 2px;
+    margin-left: 14px;
+    padding: 10px;
+    text-align: left;
+    float: left;
 }
